@@ -1,4 +1,4 @@
-# -  Alfred/Spotlight Refresh Tool  -
+# Alfred & Spotlight Refresh Tool
 
 ### Many people use Alfred as the amazing productivity tool that it was designed to be. 
 However, if you cannot launch all your apps from an Alfred search, you might be very frustrated. 
