@@ -9,19 +9,20 @@ Your volume index is how OS X catalogs the hierarchy of all your files and folde
 ### This script force resets your volume's index, then rebuilds it.
 Once rebuilt, Alfred & Spotlight will show the correct search results.
 
-#### For Those Unfamiliar With The Terminal:
+### For Those Unfamiliar With The Terminal:
 * Select *Clone or download* on this repository
 * Open alfred-spotlight-refresher-master.zip to unzip
 * Open alfred-spotlight-refresher-master folder
 * Double click indexreset and enter password when prompted
 * Enter "yes" to begin the refreshing process
 
-#### To Run Script
+### For CLI Lovers
+#### To Run Script:
 ```
 $ git clone https://github.com/ev-dev/alfred-spotlight-refresher.git && cd alfred-spotlight-refresher
 $ ./indexreset
 ```
-#### To Install Script As Command
+#### To Install Script As Command:
 ```
 $ git clone https://github.com/ev-dev/alfred-spotlight-refresher.git && cd alfred-spotlight-refresher
 $ ./install.sh
