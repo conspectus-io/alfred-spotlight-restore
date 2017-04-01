@@ -1,10 +1,10 @@
-# Alfred/Spotlight Restore Tool
+#    Alfred/Spotlight Refresh Tool
 
 ### Many people use Alfred as the amazing productivity tool that it was designed to be. 
 However, if you cannot launch all your apps from an Alfred search, you might be very frustrated. 
 This script will fix your Alfred and can be ran anytime, saving you the *terrible* pain of manually using your mouse/trackpad to open things...
 
-#### Your volume index is how OS X catalogs the hierarchy of all your files and folders. Sometimes that index is not updated or generally does not match the actual paths of your files.
+###### Your volume index is how OS X catalogs the hierarchy of all your files and folders. Sometimes that index is not updated or generally does not match the actual paths of your files.
 
 ### This script force resets your volume's index then rebuilds it so that Alfred & Spotlight will show you the correct results of a given search. 
 
