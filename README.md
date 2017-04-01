@@ -6,11 +6,19 @@ This script will fix your Alfred and can be ran anytime, saving you the *terribl
 
 ### This script force resets your volume's index then rebuilds it so that Alfred & Spotlight will show you the correct results of a given search. 
 
-If your Alfred acts up as much as mine, add script to your path to easily run as the command 'indexreset'.
-
-#### In Your Terminal Run:
+#### To Run Script
+#####In Your Terminal Run:
 ```
-git clone https://github.com/ev-dev/alfred-spotlight-restore.git
+$ git clone https://github.com/ev-dev/alfred-spotlight-restore.git
+$ cd alfred-spotlight-restore
+$ ./indexreset
+```
+#### To Install Script As Command
+```
+$ git clone https://github.com/ev-dev/alfred-spotlight-restore.git
+$ cd alfred-spotlight-restore
+$ ./install.sh
+$ indexreset
 ```
 
 #### For Those Unfamiliar With Command Lines:
