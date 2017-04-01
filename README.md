@@ -29,7 +29,6 @@ $ indexreset
 
 ## Warning
 This script does wipe your current index... nothing to be affraid of, none of your files or folders will be touched.
-
 After script finishes, the actual index process can take a while depending on the amounts of files/folders you have and the relative size/speed of your drive.
 You probably don't want to power off/reboot while the indexing process is in progress...if you do this will not harm anything but your index might not be complete.
 
