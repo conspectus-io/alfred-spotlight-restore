@@ -2,23 +2,32 @@
 
 # Script to get Alfred/Spotlight working again...
 # Must run as root user!
+
 if [ "$(id -u)" != "0" ]; then
   exec sudo "$0" "$@"
 fi
 
-echo "Starting Script..."
+echo " Starting Script..."
 
 answer='z'
 sleep 1
 clear
 
-echo $'-- Welcome to the Spotlight Index Refresh Tool --\n'
-echo $'This script will destroy ALL current indexes\nfor ALL current volumes.\n'
-echo $'It will then rebuild the proper indexes...\n'
-echo $'\t**************************************'
-echo $'\tThis can take a while depending on the\n\tamount of files/folders in your volume\n\tand the relative size of your volume.\n\tDrive and processor speeds also affect\n\tthe time to complete'
-echo $'\t**************************************\n'
-echo -n $'Are you sure you want to continue?\nEnter  (Y)es, (N)o, or (H)elp for more information...'
+echo $' _________________________________________________\n'
+echo $'           Alfred/Spotlight Refresh Tool          '
+echo $' _________________________________________________'
+
+echo $' This script will destroy ALL current indexes\n for ALL current volumes.\n'
+echo $' It will then rebuild the proper indexes...\n'
+
+echo $'   -------------------------------------------------'
+echo $'   This can take a while depending on the amount of'
+echo $'    files/folders in your volume and the relative'
+echo $'                size of your volume.'
+echo $'   -------------------------------------------------\n'
+
+echo -n $' Are you sure you want to continue?\n Please Enter:\n     (Y)es, (N)o, or (H)elp for more info..... '
+
 read answer
 
 if [ $answer = "y" ] || [ $answer = "n" ] || [ $answer = "h" ]; then
@@ -99,7 +108,7 @@ if [ $answer = "y" ] || [ $answer = "n" ] || [ $answer = "h" ]; then
   esac
 
 else
-  echo $'\nSorry, the script did not recognize your input answer.\n'
+  echo $'\nSorry, the script did not recognize your input answer.\nPlease run script again to return to menu.'
 fi
 
 echo $'\nExiting Script...\n'

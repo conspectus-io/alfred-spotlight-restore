@@ -8,11 +8,15 @@ This script will fix your Alfred and can be ran anytime, saving you the *terribl
 
 If your Alfred acts up as much as mine, add script to your path to easily run as the command 'indexreset'.
 
-#### For Those Unfamiliar With Command Lines:
-*In Your Terminal Run:*
+#### In Your Terminal Run:
 ```
 git clone https://github.com/ev-dev/alfred-spotlight-restore.git
 ```
+
+#### For Those Unfamiliar With Command Lines:
+* Select *Clone or download* on this repository
+* 
+
 #### Your volume index is how OS X catalogs the hierarchy of all your files and folders. Sometimes that index is not updated or generally does not match the actual paths of your files.
 
 ## Warning
