@@ -10,7 +10,7 @@ Your volume index is how OS X catalogs the hierarchy of all your files and folde
 Once rebuilt, Alfred & Spotlight will show the correct search results.
 
 ### For Those Unfamiliar With The Terminal:
-* Select *Clone or download* on this repository
+* Select *Clone or download* on this repository and click *Download ZIP*
 * Open alfred-spotlight-refresher-master.zip to unzip
 * Open alfred-spotlight-refresher-master folder
 * Double click indexreset and enter password when prompted
