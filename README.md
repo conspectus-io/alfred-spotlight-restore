@@ -7,7 +7,7 @@ This script will fix your Alfred and can be ran anytime, saving you the *terribl
 Your volume index is how OS X catalogs the hierarchy of all your files and folders. Sometimes that index is not updated or generally does not match the actual paths of your files.
 
 ### This script force resets your volume's index, then rebuilds it.
-#### Once rebuilt, Alfred & Spotlight will show the correct search results.
+Once rebuilt, Alfred & Spotlight will show the correct search results.
 
 #### To Run Script
 ```
