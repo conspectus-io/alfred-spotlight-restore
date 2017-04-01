@@ -30,7 +30,7 @@ echo -n $' Are you sure you want to continue?\n Please Enter:\n     (Y)es, (N)o,
 
 read answer
 
-if [ $answer = "y" ] || [ $answer = "n" ] || [ $answer = "h" ]; then
+if [ $answer = "y" ] || [ $answer = "yes" ]|| [ $answer = "n" ] || [ $answer = "h" ]; then
 
   case $answer in
     [yY]|[yY][eE][sS])
