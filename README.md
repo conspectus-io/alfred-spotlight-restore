@@ -11,19 +11,20 @@ Once rebuilt, Alfred & Spotlight will show the correct search results.
 
 #### To Run Script
 ```
-$ git clone https://github.com/ev-dev/alfred-spotlight-restore.git && cd alfred-spotlight-restore
+$ git clone https://github.com/ev-dev/alfred-spotlight-refresher.git && cd alfred-spotlight-refresher
 $ ./indexreset
 ```
 #### To Install Script As Command
 ```
-$ git clone https://github.com/ev-dev/alfred-spotlight-restore.git && cd alfred-spotlight-restore
+$ git clone https://github.com/ev-dev/alfred-spotlight-refresher.git && cd alfred-spotlight-refresher
 $ ./install.sh
 $ indexreset
 ```
 
 #### For Those Unfamiliar With Command Lines:
 * Select *Clone or download* on this repository
-* Open alfred-spotlight-restore-master.zip to unzip
+* Open alfred-spotlight-refresher-master.zip to unzip
+* Open alfred-spotlight-refresher-master folder
 * Double click indexreset and enter password when prompted
 * Enter "yes" to begin the refreshing process
 
