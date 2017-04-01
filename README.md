@@ -4,28 +4,27 @@
 However, if you cannot launch all your apps from an Alfred search, you might be very frustrated. 
 This script will fix your Alfred and can be ran anytime, saving you the *terrible* pain of manually using your mouse/trackpad to open things...
 
+#### Your volume index is how OS X catalogs the hierarchy of all your files and folders. Sometimes that index is not updated or generally does not match the actual paths of your files.
+
 ### This script force resets your volume's index then rebuilds it so that Alfred & Spotlight will show you the correct results of a given search. 
 
 #### To Run Script
-#####In Your Terminal Run:
 ```
-$ git clone https://github.com/ev-dev/alfred-spotlight-restore.git
-$ cd alfred-spotlight-restore
+$ git clone https://github.com/ev-dev/alfred-spotlight-restore.git && cd alfred-spotlight-restore
 $ ./indexreset
 ```
 #### To Install Script As Command
 ```
-$ git clone https://github.com/ev-dev/alfred-spotlight-restore.git
-$ cd alfred-spotlight-restore
+$ git clone https://github.com/ev-dev/alfred-spotlight-restore.git && cd alfred-spotlight-restore
 $ ./install.sh
 $ indexreset
 ```
 
 #### For Those Unfamiliar With Command Lines:
 * Select *Clone or download* on this repository
-* 
-
-#### Your volume index is how OS X catalogs the hierarchy of all your files and folders. Sometimes that index is not updated or generally does not match the actual paths of your files.
+* Open alfred-spotlight-restore-master.zip to unzip
+* Double click indexreset and enter password when prompted
+* Enter "yes" to begin the refreshing process
 
 ## Warning
 This script does wipe your current index... nothing to be affraid of, none of your files or folders will be touched.
