@@ -16,13 +16,13 @@ Once rebuilt, Alfred & Spotlight will show the correct search results.
 * Double click indexreset and enter password when prompted
 * Enter "yes" to begin the refreshing process
 
-### For CLI Lovers
-#### To Run Script:
+### For CLI Lovers:
+#### Run The Script:
 ```
 $ git clone https://github.com/ev-dev/alfred-spotlight-refresher.git && cd alfred-spotlight-refresher
 $ ./indexreset
 ```
-#### To Install Script As Command:
+#### Install Script As Command:
 ```
 $ git clone https://github.com/ev-dev/alfred-spotlight-refresher.git && cd alfred-spotlight-refresher
 $ ./install.sh
