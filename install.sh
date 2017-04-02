@@ -19,10 +19,8 @@ echo -n $'\n Are you sure you want to continue (yes/no)? '
 
 read choice
 
-if [ $choice = "y" ] || [ $choice = "n" ]; then
+if [ $choice = "y" ] || [ $choice = "Yes" ] || [ $choice = "yes" ]; then
 
-  case $choice in
-    [yY]|[yY][eE][sS])
     echo $'\n______________________________________________________\n'
     echo $' * Installing Alfred/Spotlight Restore Tool...\n'
 	sleep 1
@@ -31,20 +29,10 @@ if [ $choice = "y" ] || [ $choice = "n" ]; then
     echo $'\n * Complete!\n'
     echo $' To run the Alfred/Spotlight Restore Tool:\n'
     echo $'       Enter the command:   indexreset\n'
-    echo $'______________________________________________________\n' ;;
-  esac
-
-  case $choice in
-    [nN]|[nN][oO])
-    echo $'\n______________________________________________________\n'
-    echo $'               Exited Installation...\n'
-    echo $' * Please run install.sh again to get back to menu *\n' ;;
-  esac
-
+    echo $'______________________________________________________\n'
 else
   echo $'\n______________________________________________________\n'
   echo $'                 Exited Installation...\n'
-  echo $'  Sorry, you did not enter (Y)es or (N)o\n'
   echo $' * Please run install.sh again to get back to menu *\n'
 fi
 
