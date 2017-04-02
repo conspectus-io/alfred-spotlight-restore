@@ -5,8 +5,8 @@ echo $'\n Removing all scripts...\n'
 sleep 1
 
 sudo rm -vf /usr/bin/indexreset /usr/bin/indexresetdaemon
-sudo rm -v /Library/LaunchDaemons/indexresetlaunchd
-sudo rm -v /Library/LaunchAgents/indexresetlaunchd
+sudo rm -vf /Library/LaunchDaemons/indexresetlaunchd
+sudo rm -vf /Library/LaunchAgents/indexresetlaunchd
 
 sleep 1
 
