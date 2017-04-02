@@ -15,16 +15,16 @@ clear
 
 echo $' _________________________________________________\n'
 echo $'           Alfred/Spotlight Refresh Tool          '
-echo $' _________________________________________________'
+echo $' _________________________________________________\n'
 
 echo $' This script will destroy ALL current indexes\n for ALL current volumes.\n'
 echo $' It will then rebuild the proper indexes...\n'
 
-echo $'   -------------------------------------------------'
-echo $'   This can take a while depending on the amount of'
+echo $' --------------------------------------------------'
+echo $'  This can take a while depending on the amount of'
 echo $'    files/folders in your volume and the relative'
-echo $'                size of your volume.'
-echo $'   -------------------------------------------------\n'
+echo $'               size of your volume.'
+echo $' --------------------------------------------------\n'
 
 echo -n $' Are you sure you want to continue?\n Please Enter:\n     (Y)es, (N)o, or (H)elp for more info..... '
 
@@ -93,13 +93,13 @@ if [ $answer = "y" ] || [ $answer = "yes" ]|| [ $answer = "n" ] || [ $answer = "
   case $answer in
     [nN]|[nN][oO])
 
-    echo $'\nUser Prompted Exit.' ;;
+    echo $'\n  User Prompted Exit!' ;;
   esac
 
   case $answer in
     [hH]|[hH][eE][lL][pP])
 
-    echo $'\nMore Information...\n'
+    echo $'\n  More Information...\n'
     sleep 1
     man mdutil
     if [ $? -eq 0 ]; then
@@ -108,10 +108,10 @@ if [ $answer = "y" ] || [ $answer = "yes" ]|| [ $answer = "n" ] || [ $answer = "
   esac
 
 else
-  echo $'\nSorry, the script did not recognize your input answer.\nPlease run script again to return to menu.'
+  echo $'\n  Sorry, the script did not recognize your input answer.\n  Please run script again to return to menu.'
 fi
 
-echo $'\nExiting Script...\n'
+echo $'\n  Exiting Script...\n'
 sleep 1
 
 exit 0
