@@ -3,7 +3,7 @@
 <plist version ="1.0">
 <dict>
     <key>Label</key>
-    <string>com.example.indexresetlaunchd</string>
+    <string>com.evdev.indexresetlaunchd</string>
     <key>ProgramArguments</key>
     <array>
         <string>indexresetdaemon</string>

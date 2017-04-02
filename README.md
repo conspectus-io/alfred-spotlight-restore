@@ -15,7 +15,6 @@ Once rebuilt, Alfred & Spotlight will show the correct search results.
 * Open alfred-spotlight-refresher-master folder
 * Double click indexreset and enter user password when prompted
 * Enter "yes" to begin the refreshing process
-* OPTIONAL: Double-click install-with-launchd.sh to schedule refreshing every two days
 
 ### For CLI Lovers:
 #### Run The Script:
@@ -29,9 +28,10 @@ $ git clone https://github.com/ev-dev/alfred-spotlight-refresher.git && cd alfre
 $ ./install.sh
 $ indexreset
 ```
-#### Install Script With Scheduler
+#### Install Script With Scheduler (EXPERIMENTAL)
+Caution this feature is not fully functional
 ```
-$ git clone https://github.com/ev-dev/alfred-spotlight-refresher.git && cd alfred-spotlight-refresher
+$ git clone https://github.com/ev-dev/alfred-spotlight-refresher.git && cd alfred-spotlight-refresher/scheduler
 $ ./install-with-launchd.sh
 ```
 ## Warning

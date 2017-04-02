@@ -28,7 +28,7 @@ if [ $choice = "y" ] || [ $choice = "yes" ] || [ $choice = "Yes" ] || [ $choice 
     echo $'\n__________________________________________________\n'
     echo $' * Installing Alfred/Spotlight Restore Tool...\n'
 	sleep 1
-    sudo cp -v ./indexreset ./indexresetdaemon /usr/bin/
+    sudo cp -v ../indexreset ./indexresetdaemon /usr/bin/
 	sudo cp -v ./indexresetlaunchd /Library/LaunchDaemons/
 	sudo cp -v ./indexresetlaunchd /Library/LaunchAgents/
 	sudo chmod +x /Library/LaunchDaemons/indexresetlaunchd
