@@ -30,9 +30,10 @@ $ ./install.sh
 $ indexreset
 ```
 #### Install Script With Scheduler
+```
 $ git clone https://github.com/ev-dev/alfred-spotlight-refresher.git && cd alfred-spotlight-refresher
 $ ./install-with-launchd.sh
-
+```
 ## Warning
 This script does wipe your current index... nothing to be affraid of, none of your files or folders will be touched.
 After script finishes, the actual index process can take a while depending on the amounts of files/folders you have and the relative size/speed of your drive.
