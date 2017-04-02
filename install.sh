@@ -23,7 +23,7 @@ if [ $choice = "y" ] || [ $choice = "n" ]; then
 
   case $choice in
     [yY]|[yY][eE][sS])
-    echo $'\n__________________________________________________\n'
+    echo $'\n______________________________________________________\n'
     echo $' * Installing Alfred/Spotlight Restore Tool...\n'
 	sleep 1
     sudo cp -v ./indexreset /usr/bin/
@@ -31,18 +31,18 @@ if [ $choice = "y" ] || [ $choice = "n" ]; then
     echo $'\n * Complete!\n'
     echo $' To run the Alfred/Spotlight Restore Tool:\n'
     echo $'       Enter the command:   indexreset\n'
-    echo $'____________________________________________________\n' ;;
+    echo $'______________________________________________________\n' ;;
   esac
 
   case $choice in
     [nN]|[nN][oO])
-    echo $'\n_________________________________________________\n'
+    echo $'\n______________________________________________________\n'
     echo $'               Exited Installation...\n'
     echo $' * Please run install.sh again to get back to menu *\n' ;;
   esac
 
 else
-  echo $'\n___________________________________________________\n'
+  echo $'\n______________________________________________________\n'
   echo $'                 Exited Installation...\n'
   echo $'  Sorry, you did not enter (Y)es or (N)o\n'
   echo $' * Please run install.sh again to get back to menu *\n'
