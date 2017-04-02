@@ -3,6 +3,7 @@
 if [ "$(id -u)" != "0" ]; then
   exec sudo "$0" "$@"
 fi
+
 echo $'______________________________________________________\n'
 echo $'     Alfred/Spotlight Restore Tool Installation '
 echo $'______________________________________________________\n'
