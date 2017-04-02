@@ -68,6 +68,7 @@ if [ $answer = "y" ] || [ $answer = "yes" ]|| [ $answer = "n" ] || [ $answer = "
     mdutil -a -i on
     sleep 2
 
+   # To-do: Error catching
     #if [ $? -eq 0 ]; then
       # Step 7
     #else
