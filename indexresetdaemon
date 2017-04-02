@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Turn indexing off
+mdutil -a -i off
+
+# Deactivate Spotlight services and the index
+launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
+
+# Delete Spotlight files
+rm -rf /.Spotlight*
+
+# Delete metadata file
+rm -rf /.metadata_never_index
+
+# Reload Spotlight service
+launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
+
+# Turn on indexing
+mdutil -a -i on
+
+# Rebuild index
+mdutil -E /
+
+exit 0

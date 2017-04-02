@@ -13,8 +13,9 @@ Once rebuilt, Alfred & Spotlight will show the correct search results.
 * Select *Clone or download* on this repository and click *Download ZIP*
 * Open alfred-spotlight-refresher-master.zip to unzip
 * Open alfred-spotlight-refresher-master folder
-* Double click indexreset and enter password when prompted
+* Double click indexreset and enter user password when prompted
 * Enter "yes" to begin the refreshing process
+* OPTIONAL: Double-click install-with-launchd.sh to schedule refreshing every two days
 
 ### For CLI Lovers:
 #### Run The Script:
@@ -28,6 +29,9 @@ $ git clone https://github.com/ev-dev/alfred-spotlight-refresher.git && cd alfre
 $ ./install.sh
 $ indexreset
 ```
+#### Install Script With Scheduler
+$ git clone https://github.com/ev-dev/alfred-spotlight-refresher.git && cd alfred-spotlight-refresher
+$ ./install-with-launchd.sh
 
 ## Warning
 This script does wipe your current index... nothing to be affraid of, none of your files or folders will be touched.
@@ -37,6 +41,9 @@ You probably don't want to power off/reboot while the indexing process is in pro
 ## Note!
 You can check the indexing progress by searching for something from Spotlight (not in Alfred). In the Spotlight's results you will see *Indexing...* with a progress bar.
 Even though a full rebuild of the index may take a while, searching for apps and most files in Alfred is usually fixed right away. (Plus if you have an SSD, it should index in full within a minute).
+
+## Uninstall Instructions
+* Run ./uninstall-all.sh in Terminal or by double-clicking to open
 
 ## Other
 I wrote this script because my Alfred constantly kept losing the ability to show applications. Even rebuilding the cache and reseting the index from within the Alfred settings menu would not fix the problem. (Ex. A search for 'Chrome' would not display the Google Chrome result).
